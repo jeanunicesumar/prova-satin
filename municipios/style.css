@@ -1,0 +1,36 @@
+div.municipios {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.municipios ul {
+    width: 100%;
+}
+
+.municipios li {
+    list-style: none;
+}
+
+.municipios span {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}   
+
+button {
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff4136;
+    color: white;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
